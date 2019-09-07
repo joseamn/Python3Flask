@@ -3,8 +3,8 @@ RoadMap do desenvolvimento web API desde o zero.
 
 # Instalações Fundamentais
 Python3 (windows 7)
-Anaconda3
-Spyder (IDE)
+Anaconda3 (opcional)
+Spyder (opcional IDE)
 Postgresql 11 (integrado com wamp) 
 SqliteManager
 https://sqldbm.com/Home/
@@ -15,7 +15,8 @@ flask-alchemy
 flask-scripts
 flask-migrate
 virtualenv - pip3 
--- recomendations.txt --
+
+-- requirements.txt --
 
 # Pré-desenvolvimento
 Criação de pastas dentro do MVC para organização 
@@ -32,5 +33,7 @@ instalaçao pip3 recomendations.txt
 # Desenv
 Criação do run.py - inicia o runserver 127.0.0.1:5000 (dentro do raiz) 
 :) Correção de bugs - erros de sintaxe basicamente 
+Incluir __init__.py dentro das pastas models e controllers 
+
 
                        
